@@ -22,6 +22,9 @@ public class StorageController {
         return new ResponseEntity<>(uploadImage, HttpStatus.OK);
     }
 
+
+
+    //mapping get request
     @GetMapping("/{fileName}")
     public ResponseEntity<?> downloadImage(@PathVariable String fileName){
          byte[] imageData=service.downloadImage(fileName);
