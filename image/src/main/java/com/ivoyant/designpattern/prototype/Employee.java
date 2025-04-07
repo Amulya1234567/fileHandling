@@ -1,5 +1,6 @@
 package com.ivoyant.designpattern.prototype;
 
+
 public class Employee {
     private String name;
     private int age;
